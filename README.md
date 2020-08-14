@@ -6,6 +6,7 @@ Esse script server para as seguintes opções:
 1. Apagar Arquivos Temporários do Windows
 
   Nesta opção as seguintes pasta são esvaziadas: 
+  
   C:\windows\temp\
   C:\Documents and settings\%username%\Config~1\tempor~1
   C:\Documents and settings\%username%\Config~1\temp  
@@ -14,6 +15,7 @@ Esse script server para as seguintes opções:
 2. Apagar Arquivos Temporários do Windows Completa
 
   Nesta opção as seguintes pasta são esvaziadas: 
+  
   C:\windows\temp\
   C:\Documents and settings\%username%\Config~1\tempor~1
   C:\Documents and settings\%username%\Config~1\temp  
@@ -27,6 +29,7 @@ Esse script server para as seguintes opções:
 5. Verificador do Windows, repara arquivos ausentes ou corrompidos
 
   Nesta opção os seguintes comandos são utilizados: 
+  
     sfc /scannow
     Dism /Online /Cleanup-Image /ScanHealth
     Dism /Online /Cleanup-Image /RestoreHealth
