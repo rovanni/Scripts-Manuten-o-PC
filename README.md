@@ -41,3 +41,7 @@ Esse script server para as seguintes opções:
 7. Desligar
 
   Comando para desligar o computador.
+
+8. Sair 
+
+  Comando para sair do script.  
