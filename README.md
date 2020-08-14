@@ -36,4 +36,8 @@ Esse script server para as seguintes opções:
     
 6. Reiniciar
 
+  Comando para reiniciar o Windows.
+
 7. Desligar
+
+  Comando para desligar o computador.
