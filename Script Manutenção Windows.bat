@@ -10,11 +10,11 @@ echo Computador: %computername%        Usuario: %username%
                    
 echo            MENU TAREFAS
 echo ========================================================================
-echo * 1. Esvaziar Arq. Temp.                                               * 
-echo * 2. Esvaziar Arq. Temp. Completa                                      *  
-echo * 3. Esvaziar Spooler de Impressão.                                    *
-echo * 4. Esvaziar Pasta Downloads                                          *
-echo * 5. Verificador o Windows e reparar arquivos ausentes ou corrompidos  *
+echo * 1. Apagar Arq. Temp.                                                 * 
+echo * 2. Apagar Arq. Temp. Completa                                        *  
+echo * 3. Esvaziar Spooler de Impressão                                     *
+echo * 4. Apagar Arq. Pasta Downloads                                       *
+echo * 5. Verificador do Windows, repara arquivos ausentes ou corrompidos   *
 echo * 6. Reiniciar                                                         *
 echo * 7. Desligar                                                          *
 echo * 8. Sair                                                              * 
@@ -34,7 +34,7 @@ if %opcao% GEQ 9 goto opcao9
 
 :opcao1
 cls
-IF EXIST c:\windows\temp\ DEL /f /s /q c:\windows\temp\*.*
+IF EXIST C:\windows\temp\ DEL /f /s /q C:\windows\temp\*.*
 DEL /q /f /s  %temp%
 DEL /q /f /s  "%temp%"
 DEL /q /f /s C:\Documents and settings\%username%\Config~1\tempor~1
