@@ -18,7 +18,7 @@ echo *  1. Apagar Arq. Temp.                                                *
 echo *  2. Apagar Arq. Temp. Completa                                       *  
 echo *  3. Esvaziar Spooler de Impressão                                    *
 echo *  4. Esvaziar Pasta Downloads                                         *
-echo *  5. Instalar programas utilizando appget                             *   
+echo *  5. Instalar programas utilizando winget                             *   
 echo *  6. Verificador do Windows, repara arquivos ausentes ou corrompidos  *
 echo *  7. Reiniciar                                                        *
 echo *  8. Desligar                                                         *
@@ -156,17 +156,17 @@ goto menu
 
 :opcao5
 cls
-appget install chrome
-appget install firefox
-appget install 7zip
-appget install foxit-reader
-appget install k-lite-codec-pack-mega
-appget install driver-booster
-appget install revo-uninstaller
-appget install ccleaner
-appget install free-download-manager
-appget install megasync
-appget install notepad-plus-plus
+winget install Google.Chrome
+winget install Mozilla.Firefox
+winget install 7zip.7zip
+winget install Foxit.FoxitReader
+winget install CodecGuide.K-LiteCodecPackMega
+winget install IObit.DriverBooster9
+winget install RevoUninstaller.RevoUninstaller
+winget install Piriform.CCleaner
+winget install Notepad++.Notepad++
+winget install Spotify.Spotify
+winget install WhatsApp.WhatsApp
 echo.
 echo ===================================
 echo *      Instalações concluidas!      *
