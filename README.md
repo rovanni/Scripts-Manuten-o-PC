@@ -1,7 +1,7 @@
 # Scripts Manutenção Windows.
 
 
-Esse script server para as seguintes opções:
+Esse script serve para as seguintes opções:
 
 1. Apagar Arquivos Temporários do Windows
 
