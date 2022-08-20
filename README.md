@@ -1,5 +1,5 @@
-# Scripts-Manuten-o-PC
-Scripts Manutenção Windows.
+# Scripts Manutenção Windows.
+
 
 Esse script server para as seguintes opções:
 
